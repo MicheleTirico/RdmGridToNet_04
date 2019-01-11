@@ -18,14 +18,14 @@ import dataAnalysis.valueSet.setNameFile;
 
 public class computeMatrix {
 
-	protected static String path = "C:\\Users\\frenz\\data\\data\\test02" ; //  "D:\\java_data_analysis\\data_test";
+	protected static String path = "D:\\dat\\data_analysis\\java" ; //C:\\Users\\frenz\\data\\data\\test02" ; //  "D:\\java_data_analysis\\data_test";
 	static File[] files = new File(path).listFiles();	
 	static BufferedReader br ;
 	private static valueSet vs = new valueSet() ;
 	static int id = 0 ;
 	public static void main(String[] args) throws IOException  {
 	    	
-    	for ( File file : files ) {		// System.out.println(file);
+    	for ( File file : files ) {		//     		System.out.println(file);
     		FileReader fr = new FileReader(file);
     		br = new BufferedReader(fr);
     		

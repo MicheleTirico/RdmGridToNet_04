@@ -8,9 +8,9 @@ import dataAnalysis.value;;
 
 public class run {
 	
-	static String pathNet = "C:\\Users\\frenz\\data\\data\\data_circle\\analysisNet" ,//C:\\Users\\frenz\\data\\data\\test06\\analysisNet" ,
-			pathNetSim = "C:\\Users\\frenz\\data\\data\\data_circle\\analysisSimNet" ,
-			pathToStore = "C:\\Users\\frenz\\data\\data\\store_circle" ;
+	static String pathNet = "D:\\dat\\results\\RdmGrid\\circle\\analysisNet" , //"C:\\Users\\frenz\\data\\data\\data_circle\\analysisNet" ,//C:\\Users\\frenz\\data\\data\\test06\\analysisNet" ,
+			pathNetSim = "D:\\dat\\results\\RdmGrid\\circle\\analysisSimNet" ,//"C:\\Users\\frenz\\data\\data\\data_circle\\analysisSimNet" ,
+			pathToStore = "D:\\dat\\data_analysis\\java\\circle" ; // C:\\Users\\frenz\\data\\data\\store_circle" ;
 
 	private static computeMatrix  cm = new computeMatrix() , 
 			cmStep = new computeMatrix();
@@ -18,7 +18,7 @@ public class run {
 	public static void main ( String[] args ) throws IOException {
 		
 		// compute step max 
-		runStepMax(true);
+		runStepMax(false);
 		
 		// compute matrix step 
 		runStep(false);

@@ -223,8 +223,6 @@ public class computeMatrix {
     	
       		value v = vs.getValue(f , k );
     		cv = new computeValue(vs, br); 	
-    	
-    		
     		
     		// compute values for degree distribution csv 
 			if ( nameIndStr.equals(setNameFile.degreeDistribution.getNameVal())) {

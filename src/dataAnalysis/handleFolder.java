@@ -2,7 +2,7 @@ package dataAnalysis;
 
 import java.io.File;
 
-public class handleFolder extends analysis {
+public class handleFolder  {
 
 	private String path ; 
 	
